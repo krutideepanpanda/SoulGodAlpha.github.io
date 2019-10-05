@@ -1,6 +1,8 @@
 html
 {
-    background-image: url("digital-art-cityscape-spaceship-futuristic-city-wallpaper.svg")
+    background-image: url("digital-art-cityscape-spaceship-futuristic-city-wallpaper.jpg");
+    width: 100%;
+    height: auto;
 }
 
 img
