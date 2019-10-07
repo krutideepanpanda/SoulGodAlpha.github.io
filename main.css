@@ -1,12 +1,7 @@
-:root
-{
-    --h:0;
-}
-
 html
 {
     background-image: url("digital-art-cityscape-spaceship-futuristic-city-wallpaper.jpg");
-    height: var(--h);
+    height: 100%;
 }
 
 h2
