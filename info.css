@@ -1,0 +1,27 @@
+h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+h2
+{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+hr
+{
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+}
+
+html
+{
+    background-image: url("info.jpg");
+    width: auto;
+    height: 100%;
+}

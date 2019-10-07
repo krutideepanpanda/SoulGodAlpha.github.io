@@ -1,0 +1,47 @@
+h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+h2
+{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+hr
+{
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+}
+
+html
+{
+    background-image: url("social.jpg");
+    width: auto;
+    height: 100%;
+}
+
+img
+{
+    width: 50%;
+    height: auto;
+}
+
+.connect
+{
+    width: 10%;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    transition: .2s;
+}
+
+.connect:hover
+{
+    transform: scale(1.3);
+}

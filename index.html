@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Slick</title>
-    <link rel ="stylesheet" href="main.css">
+<title>Slick</title>
+<link rel ="stylesheet" href="main.css">
+<link rel="stylesheet" href="transition.css">
 </head>
 <body>
-    <h1>Your details</h1>
-    <p>Kruti Deepan Panda</p>
-    <a href="https://www.facebook.com/krutideepan.panda.9" target="_blank">test</a>
-    <ul>
-        <li><p>test</p></li>
-        <li>line2</li>
-    </ul>
-    <p>example of <a href="links-and-images/link.html" target="blank">links</a> and <a href="links-and-images/images.html" target="blank">images</a></p>
-    <div id="mySidenav" class="sidenav">
-        <a href="javasript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>;
-        <a href="#"><img src="Facebook_f_logo_(2019).svg" alt="Facebook"><br></a>
-        <a href="#"> Info<br></a>
-        <a href="#"> Data<br></a>
-    </div>
+    
+    <script src="/js/index.js"></script>
 
-    <div id="main">
-        <span onclick="openNav()">open</span>
-    </div>
+<div id="mySidenav" class="sidenav">
+    <a href="javasript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>;
+    <a href="#"><a href="social.html" target="_blank" ><br>My Socials</a></a>
+    <a href="#"><a href="info.html" target="_blank"  > <br>Info</a></a>
+    <a href="#"><a href="contact.html" target="_blank"><br>Contact</a></a>
+</div>
 
-    <script>
-        function openNav()
-        {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-        }
-        function closeNav()
-        {
-            document.getElementById("mySidenav").style.width = "0px";
-            document.getElementById("main").style.marginLeft = "0px";
-        }
-    </script>
+<div id="main">
+    <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;About Me</span>
+</div>
+
+<script>
+    function openNav()
+    {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+    function closeNav()
+    {
+        document.getElementById("mySidenav").style.width = "0px";
+        document.getElementById("main").style.marginLeft = "0px";
+    }
+</script>
+<h1>This is Kruti Deepan Panda's page</h1>
+<hr>
+    <audio controls autoplay class="audio">
+        <source src="Boku no Hero Academia OST 03 My Hero Academia Main Theme.ogg" type="audio/ogg">
+        <source src="Boku no Hero Academia OST 03 My Hero Academia Main Theme.mp3" type="audio/mpeg">
+            Damn, which era you living in. Your browser can't even support mp3 files. Yuck!
+    </audio>
+<img src="IMG_20190208_172713.jpg" alt="image" class="center">
+<hr>
+<h2>Just Click on the side panel for info, I am not going to tell you any thing about myself.</h2>
 </body>
 </html>
