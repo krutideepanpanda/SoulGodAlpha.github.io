@@ -87,8 +87,8 @@ hr
 }
 
 
-@media screen and (min-height: 720px)
+@media screen and (max-height: 720px)
 {
     .sidenav{ padding-top: 15px;}
-    .sidenav a{ font-size: 18px;}
+    .sidenav a{ font-size: 36px;}
 }
